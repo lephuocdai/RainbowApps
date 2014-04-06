@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F05C672818F1210F002AFAA6 /* Clap.m in Sources */ = {isa = PBXBuildFile; fileRef = F05C672718F1210F002AFAA6 /* Clap.m */; };
+		F05C672A18F12131002AFAA6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C672918F12131002AFAA6 /* AudioToolbox.framework */; };
+		F087094018DED59E0031CF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087093F18DED59E0031CF53 /* Foundation.framework */; };
+		F087094218DED59E0031CF53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087094118DED59E0031CF53 /* CoreGraphics.framework */; };
+		F087094418DED59E0031CF53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087094318DED59E0031CF53 /* UIKit.framework */; };
+		F087094A18DED59E0031CF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F087094818DED59E0031CF53 /* InfoPlist.strings */; };
+		F087094C18DED59E0031CF53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F087094B18DED59E0031CF53 /* main.m */; };
+		F087095018DED59E0031CF53 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F087094F18DED59E0031CF53 /* CBAppDelegate.m */; };
+		F087095318DED59E0031CF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F087095118DED59E0031CF53 /* Main.storyboard */; };
+		F087095618DED59E0031CF53 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F087095518DED59E0031CF53 /* CBViewController.m */; };
+		F087095818DED59E0031CF53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F087095718DED59E0031CF53 /* Images.xcassets */; };
+		F087095F18DED59F0031CF53 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087095E18DED59F0031CF53 /* XCTest.framework */; };
+		F087096018DED59F0031CF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087093F18DED59E0031CF53 /* Foundation.framework */; };
+		F087096118DED59F0031CF53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F087094318DED59E0031CF53 /* UIKit.framework */; };
+		F087096918DED59F0031CF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F087096718DED59F0031CF53 /* InfoPlist.strings */; };
+		F087096B18DED59F0031CF53 /* ClapBeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F087096A18DED59F0031CF53 /* ClapBeatTests.m */; };
+		F087097518DED67D0031CF53 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = F087097418DED67D0031CF53 /* clap.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F087096218DED59F0031CF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F087093418DED59E0031CF53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F087093B18DED59E0031CF53;
+			remoteInfo = ClapBeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F05C672618F1210F002AFAA6 /* Clap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clap.h; sourceTree = "<group>"; };
+		F05C672718F1210F002AFAA6 /* Clap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clap.m; sourceTree = "<group>"; };
+		F05C672918F12131002AFAA6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F087093C18DED59E0031CF53 /* ClapBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClapBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F087093F18DED59E0031CF53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F087094118DED59E0031CF53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F087094318DED59E0031CF53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F087094718DED59E0031CF53 /* ClapBeat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClapBeat-Info.plist"; sourceTree = "<group>"; };
+		F087094918DED59E0031CF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F087094B18DED59E0031CF53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F087094D18DED59E0031CF53 /* ClapBeat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClapBeat-Prefix.pch"; sourceTree = "<group>"; };
+		F087094E18DED59E0031CF53 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		F087094F18DED59E0031CF53 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		F087095218DED59E0031CF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F087095418DED59E0031CF53 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		F087095518DED59E0031CF53 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		F087095718DED59E0031CF53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F087095D18DED59F0031CF53 /* ClapBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F087095E18DED59F0031CF53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F087096618DED59F0031CF53 /* ClapBeatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClapBeatTests-Info.plist"; sourceTree = "<group>"; };
+		F087096818DED59F0031CF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F087096A18DED59F0031CF53 /* ClapBeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapBeatTests.m; sourceTree = "<group>"; };
+		F087097418DED67D0031CF53 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F087093918DED59E0031CF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05C672A18F12131002AFAA6 /* AudioToolbox.framework in Frameworks */,
+				F087094218DED59E0031CF53 /* CoreGraphics.framework in Frameworks */,
+				F087094418DED59E0031CF53 /* UIKit.framework in Frameworks */,
+				F087094018DED59E0031CF53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F087095A18DED59F0031CF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F087095F18DED59F0031CF53 /* XCTest.framework in Frameworks */,
+				F087096118DED59F0031CF53 /* UIKit.framework in Frameworks */,
+				F087096018DED59F0031CF53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F087093318DED59E0031CF53 = {
+			isa = PBXGroup;
+			children = (
+				F087094518DED59E0031CF53 /* ClapBeat */,
+				F087096418DED59F0031CF53 /* ClapBeatTests */,
+				F087093E18DED59E0031CF53 /* Frameworks */,
+				F087093D18DED59E0031CF53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F087093D18DED59E0031CF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F087093C18DED59E0031CF53 /* ClapBeat.app */,
+				F087095D18DED59F0031CF53 /* ClapBeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F087093E18DED59E0031CF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05C672918F12131002AFAA6 /* AudioToolbox.framework */,
+				F087093F18DED59E0031CF53 /* Foundation.framework */,
+				F087094118DED59E0031CF53 /* CoreGraphics.framework */,
+				F087094318DED59E0031CF53 /* UIKit.framework */,
+				F087095E18DED59F0031CF53 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F087094518DED59E0031CF53 /* ClapBeat */ = {
+			isa = PBXGroup;
+			children = (
+				F087094E18DED59E0031CF53 /* CBAppDelegate.h */,
+				F087094F18DED59E0031CF53 /* CBAppDelegate.m */,
+				F087095118DED59E0031CF53 /* Main.storyboard */,
+				F087095418DED59E0031CF53 /* CBViewController.h */,
+				F087095518DED59E0031CF53 /* CBViewController.m */,
+				F087095718DED59E0031CF53 /* Images.xcassets */,
+				F087094618DED59E0031CF53 /* Supporting Files */,
+				F05C672618F1210F002AFAA6 /* Clap.h */,
+				F05C672718F1210F002AFAA6 /* Clap.m */,
+			);
+			path = ClapBeat;
+			sourceTree = "<group>";
+		};
+		F087094618DED59E0031CF53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F087097418DED67D0031CF53 /* clap.wav */,
+				F087094718DED59E0031CF53 /* ClapBeat-Info.plist */,
+				F087094818DED59E0031CF53 /* InfoPlist.strings */,
+				F087094B18DED59E0031CF53 /* main.m */,
+				F087094D18DED59E0031CF53 /* ClapBeat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F087096418DED59F0031CF53 /* ClapBeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F087096A18DED59F0031CF53 /* ClapBeatTests.m */,
+				F087096518DED59F0031CF53 /* Supporting Files */,
+			);
+			path = ClapBeatTests;
+			sourceTree = "<group>";
+		};
+		F087096518DED59F0031CF53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F087096618DED59F0031CF53 /* ClapBeatTests-Info.plist */,
+				F087096718DED59F0031CF53 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F087093B18DED59E0031CF53 /* ClapBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F087096E18DED59F0031CF53 /* Build configuration list for PBXNativeTarget "ClapBeat" */;
+			buildPhases = (
+				F087093818DED59E0031CF53 /* Sources */,
+				F087093918DED59E0031CF53 /* Frameworks */,
+				F087093A18DED59E0031CF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClapBeat;
+			productName = ClapBeat;
+			productReference = F087093C18DED59E0031CF53 /* ClapBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F087095C18DED59F0031CF53 /* ClapBeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F087097118DED59F0031CF53 /* Build configuration list for PBXNativeTarget "ClapBeatTests" */;
+			buildPhases = (
+				F087095918DED59F0031CF53 /* Sources */,
+				F087095A18DED59F0031CF53 /* Frameworks */,
+				F087095B18DED59F0031CF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F087096318DED59F0031CF53 /* PBXTargetDependency */,
+			);
+			name = ClapBeatTests;
+			productName = ClapBeatTests;
+			productReference = F087095D18DED59F0031CF53 /* ClapBeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F087093418DED59E0031CF53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lephuocdai;
+				TargetAttributes = {
+					F087095C18DED59F0031CF53 = {
+						TestTargetID = F087093B18DED59E0031CF53;
+					};
+				};
+			};
+			buildConfigurationList = F087093718DED59E0031CF53 /* Build configuration list for PBXProject "ClapBeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F087093318DED59E0031CF53;
+			productRefGroup = F087093D18DED59E0031CF53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F087093B18DED59E0031CF53 /* ClapBeat */,
+				F087095C18DED59F0031CF53 /* ClapBeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F087093A18DED59E0031CF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F087097518DED67D0031CF53 /* clap.wav in Resources */,
+				F087095818DED59E0031CF53 /* Images.xcassets in Resources */,
+				F087094A18DED59E0031CF53 /* InfoPlist.strings in Resources */,
+				F087095318DED59E0031CF53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F087095B18DED59F0031CF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F087096918DED59F0031CF53 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F087093818DED59E0031CF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F087094C18DED59E0031CF53 /* main.m in Sources */,
+				F05C672818F1210F002AFAA6 /* Clap.m in Sources */,
+				F087095018DED59E0031CF53 /* CBAppDelegate.m in Sources */,
+				F087095618DED59E0031CF53 /* CBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F087095918DED59F0031CF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F087096B18DED59F0031CF53 /* ClapBeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F087096318DED59F0031CF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F087093B18DED59E0031CF53 /* ClapBeat */;
+			targetProxy = F087096218DED59F0031CF53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F087094818DED59E0031CF53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F087094918DED59E0031CF53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F087095118DED59E0031CF53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F087095218DED59E0031CF53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F087096718DED59F0031CF53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F087096818DED59F0031CF53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F087096C18DED59F0031CF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F087096D18DED59F0031CF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F087096F18DED59F0031CF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBeat/ClapBeat-Prefix.pch";
+				INFOPLIST_FILE = "ClapBeat/ClapBeat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F087097018DED59F0031CF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBeat/ClapBeat-Prefix.pch";
+				INFOPLIST_FILE = "ClapBeat/ClapBeat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F087097218DED59F0031CF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClapBeat.app/ClapBeat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBeat/ClapBeat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClapBeatTests/ClapBeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F087097318DED59F0031CF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClapBeat.app/ClapBeat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBeat/ClapBeat-Prefix.pch";
+				INFOPLIST_FILE = "ClapBeatTests/ClapBeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F087093718DED59E0031CF53 /* Build configuration list for PBXProject "ClapBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F087096C18DED59F0031CF53 /* Debug */,
+				F087096D18DED59F0031CF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F087096E18DED59F0031CF53 /* Build configuration list for PBXNativeTarget "ClapBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F087096F18DED59F0031CF53 /* Debug */,
+				F087097018DED59F0031CF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F087097118DED59F0031CF53 /* Build configuration list for PBXNativeTarget "ClapBeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F087097218DED59F0031CF53 /* Debug */,
+				F087097318DED59F0031CF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F087093418DED59E0031CF53 /* Project object */;
+}

@@ -78,9 +78,11 @@
     return TRUE;
 }
 
+
+// Get the real time currency rate
 - (double)getRate {
     //Prepare to establish the connection
-    NSURL *url = [NSURL URLWithString:@"http://rate-exchange.appspot.com/currency?from=USD&to=JPY"];
+    NSURL *url = [NSURL URLWithString:@"http://currency-api.appspot.com/api/USD/JPY.json?key=855c464d27f86fa3c3aa53985babb0dbe721f1d9"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
     [request setHTTPMethod:@"GET"];
