@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0688CB1190FC9E400E933F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CB0190FC9E400E933F8 /* Foundation.framework */; };
+		F0688CB3190FC9E400E933F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CB2190FC9E400E933F8 /* CoreGraphics.framework */; };
+		F0688CB5190FC9E400E933F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CB4190FC9E400E933F8 /* UIKit.framework */; };
+		F0688CBB190FC9E400E933F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0688CB9190FC9E400E933F8 /* InfoPlist.strings */; };
+		F0688CBD190FC9E400E933F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CBC190FC9E400E933F8 /* main.m */; };
+		F0688CC1190FC9E400E933F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CC0190FC9E400E933F8 /* AppDelegate.m */; };
+		F0688CC3190FC9E400E933F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0688CC2190FC9E400E933F8 /* Images.xcassets */; };
+		F0688CCA190FC9E400E933F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CC9190FC9E400E933F8 /* XCTest.framework */; };
+		F0688CCB190FC9E400E933F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CB0190FC9E400E933F8 /* Foundation.framework */; };
+		F0688CCC190FC9E400E933F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0688CB4190FC9E400E933F8 /* UIKit.framework */; };
+		F0688CD4190FC9E500E933F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0688CD2190FC9E500E933F8 /* InfoPlist.strings */; };
+		F0688CD6190FC9E500E933F8 /* WordBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CD5190FC9E500E933F8 /* WordBookTests.m */; };
+		F0688CED190FCA5F00E933F8 /* MSTransBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CE0190FCA5F00E933F8 /* MSTransBridge.m */; };
+		F0688CEE190FCA5F00E933F8 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CE4190FCA5F00E933F8 /* NSObject+SBJSON.m */; };
+		F0688CEF190FCA5F00E933F8 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CE6190FCA5F00E933F8 /* NSString+SBJSON.m */; };
+		F0688CF0190FCA5F00E933F8 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CE8190FCA5F00E933F8 /* SBJsonBase.m */; };
+		F0688CF1190FCA5F00E933F8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CEA190FCA5F00E933F8 /* SBJsonParser.m */; };
+		F0688CF2190FCA5F00E933F8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CEC190FCA5F00E933F8 /* SBJsonWriter.m */; };
+		F0688CF5190FCC9200E933F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0688CF4190FCC9200E933F8 /* Main.storyboard */; };
+		F0688CF9190FCFC700E933F8 /* TranslationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CF8190FCFC700E933F8 /* TranslationViewController.m */; };
+		F0688CFC190FCFD500E933F8 /* WordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0688CFB190FCFD500E933F8 /* WordsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0688CCD190FC9E500E933F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0688CA5190FC9E400E933F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0688CAC190FC9E400E933F8;
+			remoteInfo = WordBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0688CAD190FC9E400E933F8 /* WordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0688CB0190FC9E400E933F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0688CB2190FC9E400E933F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0688CB4190FC9E400E933F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0688CB8190FC9E400E933F8 /* WordBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordBook-Info.plist"; sourceTree = "<group>"; };
+		F0688CBA190FC9E400E933F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0688CBC190FC9E400E933F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0688CBE190FC9E400E933F8 /* WordBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordBook-Prefix.pch"; sourceTree = "<group>"; };
+		F0688CBF190FC9E400E933F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0688CC0190FC9E400E933F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0688CC2190FC9E400E933F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0688CC8190FC9E400E933F8 /* WordBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0688CC9190FC9E400E933F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0688CD1190FC9E500E933F8 /* WordBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordBookTests-Info.plist"; sourceTree = "<group>"; };
+		F0688CD3190FC9E500E933F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0688CD5190FC9E500E933F8 /* WordBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBookTests.m; sourceTree = "<group>"; };
+		F0688CDF190FCA5F00E933F8 /* MSTransBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTransBridge.h; sourceTree = "<group>"; };
+		F0688CE0190FCA5F00E933F8 /* MSTransBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTransBridge.m; sourceTree = "<group>"; };
+		F0688CE2190FCA5F00E933F8 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F0688CE3190FCA5F00E933F8 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F0688CE4190FCA5F00E933F8 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F0688CE5190FCA5F00E933F8 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F0688CE6190FCA5F00E933F8 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F0688CE7190FCA5F00E933F8 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F0688CE8190FCA5F00E933F8 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F0688CE9190FCA5F00E933F8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F0688CEA190FCA5F00E933F8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F0688CEB190FCA5F00E933F8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F0688CEC190FCA5F00E933F8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F0688CF4190FCC9200E933F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0688CF7190FCFC700E933F8 /* TranslationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationViewController.h; sourceTree = "<group>"; };
+		F0688CF8190FCFC700E933F8 /* TranslationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationViewController.m; sourceTree = "<group>"; };
+		F0688CFA190FCFD500E933F8 /* WordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsViewController.h; sourceTree = "<group>"; };
+		F0688CFB190FCFD500E933F8 /* WordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0688CAA190FC9E400E933F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CB3190FC9E400E933F8 /* CoreGraphics.framework in Frameworks */,
+				F0688CB5190FC9E400E933F8 /* UIKit.framework in Frameworks */,
+				F0688CB1190FC9E400E933F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0688CC5190FC9E400E933F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CCA190FC9E400E933F8 /* XCTest.framework in Frameworks */,
+				F0688CCC190FC9E400E933F8 /* UIKit.framework in Frameworks */,
+				F0688CCB190FC9E400E933F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0688CA4190FC9E400E933F8 = {
+			isa = PBXGroup;
+			children = (
+				F0688CB6190FC9E400E933F8 /* WordBook */,
+				F0688CCF190FC9E500E933F8 /* WordBookTests */,
+				F0688CAF190FC9E400E933F8 /* Frameworks */,
+				F0688CAE190FC9E400E933F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0688CAE190FC9E400E933F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CAD190FC9E400E933F8 /* WordBook.app */,
+				F0688CC8190FC9E400E933F8 /* WordBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0688CAF190FC9E400E933F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CB0190FC9E400E933F8 /* Foundation.framework */,
+				F0688CB2190FC9E400E933F8 /* CoreGraphics.framework */,
+				F0688CB4190FC9E400E933F8 /* UIKit.framework */,
+				F0688CC9190FC9E400E933F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0688CB6190FC9E400E933F8 /* WordBook */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CF6190FCF9E00E933F8 /* Controller */,
+				F0688CF3190FCA6C00E933F8 /* Model */,
+				F0688CE1190FCA5F00E933F8 /* SBJson */,
+				F0688CBF190FC9E400E933F8 /* AppDelegate.h */,
+				F0688CC0190FC9E400E933F8 /* AppDelegate.m */,
+				F0688CC2190FC9E400E933F8 /* Images.xcassets */,
+				F0688CB7190FC9E400E933F8 /* Supporting Files */,
+				F0688CF4190FCC9200E933F8 /* Main.storyboard */,
+			);
+			path = WordBook;
+			sourceTree = "<group>";
+		};
+		F0688CB7190FC9E400E933F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CB8190FC9E400E933F8 /* WordBook-Info.plist */,
+				F0688CB9190FC9E400E933F8 /* InfoPlist.strings */,
+				F0688CBC190FC9E400E933F8 /* main.m */,
+				F0688CBE190FC9E400E933F8 /* WordBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0688CCF190FC9E500E933F8 /* WordBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CD5190FC9E500E933F8 /* WordBookTests.m */,
+				F0688CD0190FC9E500E933F8 /* Supporting Files */,
+			);
+			path = WordBookTests;
+			sourceTree = "<group>";
+		};
+		F0688CD0190FC9E500E933F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CD1190FC9E500E933F8 /* WordBookTests-Info.plist */,
+				F0688CD2190FC9E500E933F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0688CE1190FCA5F00E933F8 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CE2190FCA5F00E933F8 /* JSON.h */,
+				F0688CE3190FCA5F00E933F8 /* NSObject+SBJSON.h */,
+				F0688CE4190FCA5F00E933F8 /* NSObject+SBJSON.m */,
+				F0688CE5190FCA5F00E933F8 /* NSString+SBJSON.h */,
+				F0688CE6190FCA5F00E933F8 /* NSString+SBJSON.m */,
+				F0688CE7190FCA5F00E933F8 /* SBJsonBase.h */,
+				F0688CE8190FCA5F00E933F8 /* SBJsonBase.m */,
+				F0688CE9190FCA5F00E933F8 /* SBJsonParser.h */,
+				F0688CEA190FCA5F00E933F8 /* SBJsonParser.m */,
+				F0688CEB190FCA5F00E933F8 /* SBJsonWriter.h */,
+				F0688CEC190FCA5F00E933F8 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		F0688CF3190FCA6C00E933F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CDF190FCA5F00E933F8 /* MSTransBridge.h */,
+				F0688CE0190FCA5F00E933F8 /* MSTransBridge.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0688CF6190FCF9E00E933F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0688CF7190FCFC700E933F8 /* TranslationViewController.h */,
+				F0688CF8190FCFC700E933F8 /* TranslationViewController.m */,
+				F0688CFA190FCFD500E933F8 /* WordsViewController.h */,
+				F0688CFB190FCFD500E933F8 /* WordsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0688CAC190FC9E400E933F8 /* WordBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0688CD9190FC9E500E933F8 /* Build configuration list for PBXNativeTarget "WordBook" */;
+			buildPhases = (
+				F0688CA9190FC9E400E933F8 /* Sources */,
+				F0688CAA190FC9E400E933F8 /* Frameworks */,
+				F0688CAB190FC9E400E933F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordBook;
+			productName = WordBook;
+			productReference = F0688CAD190FC9E400E933F8 /* WordBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0688CC7190FC9E400E933F8 /* WordBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0688CDC190FC9E500E933F8 /* Build configuration list for PBXNativeTarget "WordBookTests" */;
+			buildPhases = (
+				F0688CC4190FC9E400E933F8 /* Sources */,
+				F0688CC5190FC9E400E933F8 /* Frameworks */,
+				F0688CC6190FC9E400E933F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0688CCE190FC9E500E933F8 /* PBXTargetDependency */,
+			);
+			name = WordBookTests;
+			productName = WordBookTests;
+			productReference = F0688CC8190FC9E400E933F8 /* WordBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0688CA5190FC9E400E933F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lephuocdai;
+				TargetAttributes = {
+					F0688CC7190FC9E400E933F8 = {
+						TestTargetID = F0688CAC190FC9E400E933F8;
+					};
+				};
+			};
+			buildConfigurationList = F0688CA8190FC9E400E933F8 /* Build configuration list for PBXProject "WordBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0688CA4190FC9E400E933F8;
+			productRefGroup = F0688CAE190FC9E400E933F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0688CAC190FC9E400E933F8 /* WordBook */,
+				F0688CC7190FC9E400E933F8 /* WordBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0688CAB190FC9E400E933F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CF5190FCC9200E933F8 /* Main.storyboard in Resources */,
+				F0688CBB190FC9E400E933F8 /* InfoPlist.strings in Resources */,
+				F0688CC3190FC9E400E933F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0688CC6190FC9E400E933F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CD4190FC9E500E933F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0688CA9190FC9E400E933F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CF1190FCA5F00E933F8 /* SBJsonParser.m in Sources */,
+				F0688CEF190FCA5F00E933F8 /* NSString+SBJSON.m in Sources */,
+				F0688CF0190FCA5F00E933F8 /* SBJsonBase.m in Sources */,
+				F0688CED190FCA5F00E933F8 /* MSTransBridge.m in Sources */,
+				F0688CF9190FCFC700E933F8 /* TranslationViewController.m in Sources */,
+				F0688CC1190FC9E400E933F8 /* AppDelegate.m in Sources */,
+				F0688CFC190FCFD500E933F8 /* WordsViewController.m in Sources */,
+				F0688CF2190FCA5F00E933F8 /* SBJsonWriter.m in Sources */,
+				F0688CEE190FCA5F00E933F8 /* NSObject+SBJSON.m in Sources */,
+				F0688CBD190FC9E400E933F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0688CC4190FC9E400E933F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0688CD6190FC9E500E933F8 /* WordBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0688CCE190FC9E500E933F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0688CAC190FC9E400E933F8 /* WordBook */;
+			targetProxy = F0688CCD190FC9E500E933F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0688CB9190FC9E400E933F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0688CBA190FC9E400E933F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0688CD2190FC9E500E933F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0688CD3190FC9E500E933F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0688CD7190FC9E500E933F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0688CD8190FC9E500E933F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0688CDA190FC9E500E933F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0688CDB190FC9E500E933F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0688CDD190FC9E500E933F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordBook.app/WordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WordBookTests/WordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0688CDE190FC9E500E933F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordBook.app/WordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBookTests/WordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0688CA8190FC9E400E933F8 /* Build configuration list for PBXProject "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0688CD7190FC9E500E933F8 /* Debug */,
+				F0688CD8190FC9E500E933F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0688CD9190FC9E500E933F8 /* Build configuration list for PBXNativeTarget "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0688CDA190FC9E500E933F8 /* Debug */,
+				F0688CDB190FC9E500E933F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0688CDC190FC9E500E933F8 /* Build configuration list for PBXNativeTarget "WordBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0688CDD190FC9E500E933F8 /* Debug */,
+				F0688CDE190FC9E500E933F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0688CA5190FC9E400E933F8 /* Project object */;
+}
