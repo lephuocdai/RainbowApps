@@ -33,7 +33,7 @@
                                                         delegate:self
                                                cancelButtonTitle:@"Cancel"
                                           destructiveButtonTitle:nil
-                                               otherButtonTitles:@"セビア", @"ボタン2", @"ボタン3", nil];
+                                               otherButtonTitles:@"Sepia", @"Blur", @"Exposure", nil];
     [aSheet setActionSheetStyle:UIActionSheetStyleDefault];
     [aSheet showInView:self.view];
 }
@@ -101,21 +101,22 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     if ( buttonIndex == 0 ) {
-        NSLog(@"セピア");
+        NSLog(@"Sepia");
         [self toSepia];
     }else if ( buttonIndex == 1 ) {
-        NSLog(@"ボタン２");
-        //ボタン３用
+        NSLog(@"Blur");
+        [self toBlur];
     }else if ( buttonIndex == 2 ) {
-        NSLog(@"ボタン３");
-        //キャンセル含めてそれ以外
+        NSLog(@"Exposure");
+        [self toExposure];
     } else {
         NSLog(@"キャンセル含めてそれ以外");
     }
 }
 
 #pragma Filter
-- (void)toSepia {
+
+- (void)toFilter:(NSString*)filterType {
     UIImage *originalImage = [aImageView image];
     if (originalImage == nil) {
         return;
@@ -124,16 +125,27 @@
     // Create CIImage
     CIImage *ciImage = [[CIImage alloc] initWithImage:originalImage];
     // Create CIFilter
-    CIFilter *ciFilter = [CIFilter filterWithName:@"CISepiaTone"
-                                    keysAndValues:kCIInputImageKey, ciImage,
-                          @"inputIntensity", [NSNumber numberWithFloat:0.8], nil];  // 明るさの指定
-    // Make new imageView by Sepia filter
+    CIFilter *ciFilter = [CIFilter filterWithName:filterType
+                                    keysAndValues:kCIInputImageKey, ciImage, nil];
+    // Make new imageView by the filter
     CIContext *ciContext = [CIContext contextWithOptions:nil];
     CGImageRef cgImageRef = [ciContext createCGImage:[ciFilter outputImage] fromRect:[[ciFilter outputImage] extent]];
     UIImage *newImage = [UIImage imageWithCGImage:cgImageRef scale:1.0 orientation:UIImageOrientationUp];
     CGImageRelease(cgImageRef);
     
     [aImageView setImage:newImage];
+}
+
+- (void)toSepia {
+    [self toFilter:@"CISepiaTone"];
+}
+
+- (void)toBlur {
+    [self toFilter:@"CIGaussianBlur"];
+}
+
+- (void)toExposure {
+    [self toFilter:@"CIExposureAdjust"];
 }
 
 
