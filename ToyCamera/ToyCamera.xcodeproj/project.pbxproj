@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0922AF919135C2000F34223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922AF819135C2000F34223 /* Foundation.framework */; };
+		F0922AFB19135C2000F34223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922AFA19135C2000F34223 /* CoreGraphics.framework */; };
+		F0922AFD19135C2000F34223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922AFC19135C2000F34223 /* UIKit.framework */; };
+		F0922B0319135C2000F34223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0922B0119135C2000F34223 /* InfoPlist.strings */; };
+		F0922B0519135C2000F34223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0922B0419135C2000F34223 /* main.m */; };
+		F0922B0919135C2000F34223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0922B0819135C2000F34223 /* AppDelegate.m */; };
+		F0922B0C19135C2000F34223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0922B0A19135C2000F34223 /* Main.storyboard */; };
+		F0922B0F19135C2000F34223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0922B0E19135C2000F34223 /* ViewController.m */; };
+		F0922B1119135C2000F34223 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0922B1019135C2000F34223 /* Images.xcassets */; };
+		F0922B1819135C2000F34223 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922B1719135C2000F34223 /* XCTest.framework */; };
+		F0922B1919135C2000F34223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922AF819135C2000F34223 /* Foundation.framework */; };
+		F0922B1A19135C2000F34223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922AFC19135C2000F34223 /* UIKit.framework */; };
+		F0922B2219135C2000F34223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0922B2019135C2000F34223 /* InfoPlist.strings */; };
+		F0922B2419135C2000F34223 /* ToyCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0922B2319135C2000F34223 /* ToyCameraTests.m */; };
+		F0922B3019137A5000F34223 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0922B2F19137A5000F34223 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0922B1B19135C2000F34223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0922AED19135C2000F34223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0922AF419135C2000F34223;
+			remoteInfo = ToyCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0922AF519135C2000F34223 /* ToyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0922AF819135C2000F34223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0922AFA19135C2000F34223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0922AFC19135C2000F34223 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0922B0019135C2000F34223 /* ToyCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToyCamera-Info.plist"; sourceTree = "<group>"; };
+		F0922B0219135C2000F34223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0922B0419135C2000F34223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0922B0619135C2000F34223 /* ToyCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToyCamera-Prefix.pch"; sourceTree = "<group>"; };
+		F0922B0719135C2000F34223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0922B0819135C2000F34223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0922B0B19135C2000F34223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0922B0D19135C2000F34223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0922B0E19135C2000F34223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0922B1019135C2000F34223 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0922B1619135C2000F34223 /* ToyCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0922B1719135C2000F34223 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0922B1F19135C2000F34223 /* ToyCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToyCameraTests-Info.plist"; sourceTree = "<group>"; };
+		F0922B2119135C2000F34223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0922B2319135C2000F34223 /* ToyCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyCameraTests.m; sourceTree = "<group>"; };
+		F0922B2F19137A5000F34223 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0922AF219135C2000F34223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B3019137A5000F34223 /* CoreImage.framework in Frameworks */,
+				F0922AFB19135C2000F34223 /* CoreGraphics.framework in Frameworks */,
+				F0922AFD19135C2000F34223 /* UIKit.framework in Frameworks */,
+				F0922AF919135C2000F34223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0922B1319135C2000F34223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B1819135C2000F34223 /* XCTest.framework in Frameworks */,
+				F0922B1A19135C2000F34223 /* UIKit.framework in Frameworks */,
+				F0922B1919135C2000F34223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0922AEC19135C2000F34223 = {
+			isa = PBXGroup;
+			children = (
+				F0922AFE19135C2000F34223 /* ToyCamera */,
+				F0922B1D19135C2000F34223 /* ToyCameraTests */,
+				F0922AF719135C2000F34223 /* Frameworks */,
+				F0922AF619135C2000F34223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0922AF619135C2000F34223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0922AF519135C2000F34223 /* ToyCamera.app */,
+				F0922B1619135C2000F34223 /* ToyCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0922AF719135C2000F34223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0922B2F19137A5000F34223 /* CoreImage.framework */,
+				F0922AF819135C2000F34223 /* Foundation.framework */,
+				F0922AFA19135C2000F34223 /* CoreGraphics.framework */,
+				F0922AFC19135C2000F34223 /* UIKit.framework */,
+				F0922B1719135C2000F34223 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0922AFE19135C2000F34223 /* ToyCamera */ = {
+			isa = PBXGroup;
+			children = (
+				F0922B0719135C2000F34223 /* AppDelegate.h */,
+				F0922B0819135C2000F34223 /* AppDelegate.m */,
+				F0922B0A19135C2000F34223 /* Main.storyboard */,
+				F0922B0D19135C2000F34223 /* ViewController.h */,
+				F0922B0E19135C2000F34223 /* ViewController.m */,
+				F0922B1019135C2000F34223 /* Images.xcassets */,
+				F0922AFF19135C2000F34223 /* Supporting Files */,
+			);
+			path = ToyCamera;
+			sourceTree = "<group>";
+		};
+		F0922AFF19135C2000F34223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0922B0019135C2000F34223 /* ToyCamera-Info.plist */,
+				F0922B0119135C2000F34223 /* InfoPlist.strings */,
+				F0922B0419135C2000F34223 /* main.m */,
+				F0922B0619135C2000F34223 /* ToyCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0922B1D19135C2000F34223 /* ToyCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0922B2319135C2000F34223 /* ToyCameraTests.m */,
+				F0922B1E19135C2000F34223 /* Supporting Files */,
+			);
+			path = ToyCameraTests;
+			sourceTree = "<group>";
+		};
+		F0922B1E19135C2000F34223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0922B1F19135C2000F34223 /* ToyCameraTests-Info.plist */,
+				F0922B2019135C2000F34223 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0922AF419135C2000F34223 /* ToyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0922B2719135C2000F34223 /* Build configuration list for PBXNativeTarget "ToyCamera" */;
+			buildPhases = (
+				F0922AF119135C2000F34223 /* Sources */,
+				F0922AF219135C2000F34223 /* Frameworks */,
+				F0922AF319135C2000F34223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyCamera;
+			productName = ToyCamera;
+			productReference = F0922AF519135C2000F34223 /* ToyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0922B1519135C2000F34223 /* ToyCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0922B2A19135C2000F34223 /* Build configuration list for PBXNativeTarget "ToyCameraTests" */;
+			buildPhases = (
+				F0922B1219135C2000F34223 /* Sources */,
+				F0922B1319135C2000F34223 /* Frameworks */,
+				F0922B1419135C2000F34223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0922B1C19135C2000F34223 /* PBXTargetDependency */,
+			);
+			name = ToyCameraTests;
+			productName = ToyCameraTests;
+			productReference = F0922B1619135C2000F34223 /* ToyCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0922AED19135C2000F34223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lephuocdai;
+				TargetAttributes = {
+					F0922B1519135C2000F34223 = {
+						TestTargetID = F0922AF419135C2000F34223;
+					};
+				};
+			};
+			buildConfigurationList = F0922AF019135C2000F34223 /* Build configuration list for PBXProject "ToyCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0922AEC19135C2000F34223;
+			productRefGroup = F0922AF619135C2000F34223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0922AF419135C2000F34223 /* ToyCamera */,
+				F0922B1519135C2000F34223 /* ToyCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0922AF319135C2000F34223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B1119135C2000F34223 /* Images.xcassets in Resources */,
+				F0922B0319135C2000F34223 /* InfoPlist.strings in Resources */,
+				F0922B0C19135C2000F34223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0922B1419135C2000F34223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B2219135C2000F34223 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0922AF119135C2000F34223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B0F19135C2000F34223 /* ViewController.m in Sources */,
+				F0922B0919135C2000F34223 /* AppDelegate.m in Sources */,
+				F0922B0519135C2000F34223 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0922B1219135C2000F34223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0922B2419135C2000F34223 /* ToyCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0922B1C19135C2000F34223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0922AF419135C2000F34223 /* ToyCamera */;
+			targetProxy = F0922B1B19135C2000F34223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0922B0119135C2000F34223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0922B0219135C2000F34223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0922B0A19135C2000F34223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0922B0B19135C2000F34223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0922B2019135C2000F34223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0922B2119135C2000F34223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0922B2519135C2000F34223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0922B2619135C2000F34223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0922B2819135C2000F34223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyCamera/ToyCamera-Prefix.pch";
+				INFOPLIST_FILE = "ToyCamera/ToyCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0922B2919135C2000F34223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyCamera/ToyCamera-Prefix.pch";
+				INFOPLIST_FILE = "ToyCamera/ToyCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0922B2B19135C2000F34223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToyCamera.app/ToyCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyCamera/ToyCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToyCameraTests/ToyCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0922B2C19135C2000F34223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToyCamera.app/ToyCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyCamera/ToyCamera-Prefix.pch";
+				INFOPLIST_FILE = "ToyCameraTests/ToyCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0922AF019135C2000F34223 /* Build configuration list for PBXProject "ToyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0922B2519135C2000F34223 /* Debug */,
+				F0922B2619135C2000F34223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0922B2719135C2000F34223 /* Build configuration list for PBXNativeTarget "ToyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0922B2819135C2000F34223 /* Debug */,
+				F0922B2919135C2000F34223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0922B2A19135C2000F34223 /* Build configuration list for PBXNativeTarget "ToyCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0922B2B19135C2000F34223 /* Debug */,
+				F0922B2C19135C2000F34223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0922AED19135C2000F34223 /* Project object */;
+}
