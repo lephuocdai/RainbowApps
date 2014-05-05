@@ -89,12 +89,6 @@
                         <outlet property="game_over" destination="GGl-Cn-XzI" id="ntN-A4-sIW"/>
                         <outlet property="gem" destination="lPO-u9-IRJ" id="54C-5M-8Zc"/>
                         <outlet property="goal" destination="lUx-r5-U44" id="jSL-Q7-AKY"/>
-                        <outlet property="pin1" destination="RAf-ob-WWc" id="ap3-mr-g5N"/>
-                        <outlet property="pin2" destination="hji-Ln-Ovw" id="BAT-Ik-IAK"/>
-                        <outlet property="pin3" destination="Ake-lf-cmj" id="0IC-Tg-XsP"/>
-                        <outlet property="pin4" destination="e2T-Cl-Lnp" id="g2g-ZQ-yoS"/>
-                        <outlet property="pin5" destination="d6v-fs-ivH" id="bBj-Xz-jF1"/>
-                        <outlet property="pin6" destination="A5D-gu-QYE" id="UUI-Ul-QUU"/>
                         <outlet property="scoreLabel" destination="KfG-u7-AQ0" id="ybO-j7-ziU"/>
                         <outlet property="start" destination="5Qb-sS-75p" id="ctF-Yp-AAp"/>
                         <outlet property="startButton" destination="k71-Xh-tsm" id="SfR-cI-4d9"/>
@@ -102,6 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="445" y="155"/>
         </scene>
     </scenes>
     <resources>

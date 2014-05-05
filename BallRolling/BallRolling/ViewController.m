@@ -20,12 +20,7 @@
     IBOutlet UIImageView *goal;
     
     // Obstacles
-    IBOutlet UIImageView *pin1;
-    IBOutlet UIImageView *pin2;
-    IBOutlet UIImageView *pin3;
-    IBOutlet UIImageView *pin4;
-    IBOutlet UIImageView *pin5;
-    IBOutlet UIImageView *pin6;
+    NSMutableArray *pins;
     
     IBOutlet UIImageView *game_over;
     IBOutlet UILabel *scoreLabel;
@@ -46,6 +41,16 @@
     [super viewDidLoad];
 	
     [UIApplication sharedApplication].statusBarHidden = YES;
+    
+    // Init pins by searching for UIImageView in self.view which has image name is pin.png
+    pins = [[NSMutableArray alloc] init];
+    for (UIView *subview in self.view.subviews) {
+        if ([[subview class] isSubclassOfClass:[UIImageView class]]) {
+            if ([((UIImageView*)subview).image isEqual:[UIImage imageNamed:@"pin.png"]]) {
+                [pins addObject:subview];
+            }
+        }
+    }
 }
 
 #pragma mark - Game
@@ -151,8 +156,12 @@
 }
 
 - (void)tick:(NSTimer*)theTimer {
+    
+    // Get postion at this moment
     CGFloat x = gem.center.x + vec.width;
     CGFloat y = gem.center.y + vec.height;
+    
+    // Check if ball bounded left or right borders
     if ( x + kRadius > 320) {
         [self calcScore:kReboundScore];
         vec.width = fabs(vec.width) * kWallRefPower * (-1);
@@ -164,6 +173,7 @@
         x = gem.center.x + vec.width;
     }
     
+    // Check if ball bounded top or down borders
     int screenSizeHeight = [[UIScreen mainScreen] bounds].size.height;  // For multiple device
     if ( y + kRadius > screenSizeHeight) {
         [self calcScore:kReboundScore];
@@ -176,12 +186,10 @@
         y = gem.center.y + vec.height;
     }
     
-    [self checkPin:pin1];
-    [self checkPin:pin2];
-    [self checkPin:pin3];
-    [self checkPin:pin4];
-    [self checkPin:pin5];
-    [self checkPin:pin6];
+    // Check if ball bounded any pin
+    for (UIImageView *pin in pins) {
+        [self checkPin:pin];
+    }
     
     [self checkGoal];
     
