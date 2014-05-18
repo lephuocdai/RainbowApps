@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0570DF6191F41E900082F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570DF5191F41E900082F76 /* Foundation.framework */; };
+		F0570DF8191F41E900082F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570DF7191F41E900082F76 /* CoreGraphics.framework */; };
+		F0570DFA191F41E900082F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570DF9191F41E900082F76 /* UIKit.framework */; };
+		F0570E00191F41E900082F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0570DFE191F41E900082F76 /* InfoPlist.strings */; };
+		F0570E02191F41E900082F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0570E01191F41E900082F76 /* main.m */; };
+		F0570E06191F41E900082F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0570E05191F41E900082F76 /* AppDelegate.m */; };
+		F0570E09191F41E900082F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0570E07191F41E900082F76 /* Main.storyboard */; };
+		F0570E0C191F41E900082F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0570E0B191F41E900082F76 /* ViewController.m */; };
+		F0570E0E191F41E900082F76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0570E0D191F41E900082F76 /* Images.xcassets */; };
+		F0570E15191F41EA00082F76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570E14191F41EA00082F76 /* XCTest.framework */; };
+		F0570E16191F41EA00082F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570DF5191F41E900082F76 /* Foundation.framework */; };
+		F0570E17191F41EA00082F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570DF9191F41E900082F76 /* UIKit.framework */; };
+		F0570E1F191F41EA00082F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0570E1D191F41EA00082F76 /* InfoPlist.strings */; };
+		F0570E21191F41EA00082F76 /* SatelliteMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0570E20191F41EA00082F76 /* SatelliteMapTests.m */; };
+		F0570E2D191F420700082F76 /* gradation2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0570E2A191F420600082F76 /* gradation2.png */; };
+		F0570E2E191F420700082F76 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F0570E2B191F420700082F76 /* pin.png */; };
+		F0570E2F191F420700082F76 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = F0570E2C191F420700082F76 /* sky.png */; };
+		F0570E31191F455400082F76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570E30191F455400082F76 /* MapKit.framework */; };
+		F0570E33191F4A7900082F76 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0570E32191F4A7900082F76 /* CoreMotion.framework */; };
+		F078A9151928817B00B67618 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F078A9141928817B00B67618 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0570E18191F41EA00082F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0570DEA191F41E900082F76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0570DF1191F41E900082F76;
+			remoteInfo = SatelliteMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0570DF2191F41E900082F76 /* SatelliteMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatelliteMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0570DF5191F41E900082F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0570DF7191F41E900082F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0570DF9191F41E900082F76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0570DFD191F41E900082F76 /* SatelliteMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SatelliteMap-Info.plist"; sourceTree = "<group>"; };
+		F0570DFF191F41E900082F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0570E01191F41E900082F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0570E03191F41E900082F76 /* SatelliteMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SatelliteMap-Prefix.pch"; sourceTree = "<group>"; };
+		F0570E04191F41E900082F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0570E05191F41E900082F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0570E08191F41E900082F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0570E0A191F41E900082F76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0570E0B191F41E900082F76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0570E0D191F41E900082F76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0570E13191F41EA00082F76 /* SatelliteMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelliteMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0570E14191F41EA00082F76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0570E1C191F41EA00082F76 /* SatelliteMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SatelliteMapTests-Info.plist"; sourceTree = "<group>"; };
+		F0570E1E191F41EA00082F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0570E20191F41EA00082F76 /* SatelliteMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatelliteMapTests.m; sourceTree = "<group>"; };
+		F0570E2A191F420600082F76 /* gradation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradation2.png; sourceTree = "<group>"; };
+		F0570E2B191F420700082F76 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		F0570E2C191F420700082F76 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		F0570E30191F455400082F76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F0570E32191F4A7900082F76 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F078A9141928817B00B67618 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0570DEF191F41E900082F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F078A9151928817B00B67618 /* CoreLocation.framework in Frameworks */,
+				F0570E33191F4A7900082F76 /* CoreMotion.framework in Frameworks */,
+				F0570E31191F455400082F76 /* MapKit.framework in Frameworks */,
+				F0570DF8191F41E900082F76 /* CoreGraphics.framework in Frameworks */,
+				F0570DFA191F41E900082F76 /* UIKit.framework in Frameworks */,
+				F0570DF6191F41E900082F76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0570E10191F41EA00082F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0570E15191F41EA00082F76 /* XCTest.framework in Frameworks */,
+				F0570E17191F41EA00082F76 /* UIKit.framework in Frameworks */,
+				F0570E16191F41EA00082F76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0570DE9191F41E900082F76 = {
+			isa = PBXGroup;
+			children = (
+				F0570DFB191F41E900082F76 /* SatelliteMap */,
+				F0570E1A191F41EA00082F76 /* SatelliteMapTests */,
+				F0570DF4191F41E900082F76 /* Frameworks */,
+				F0570DF3191F41E900082F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0570DF3191F41E900082F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0570DF2191F41E900082F76 /* SatelliteMap.app */,
+				F0570E13191F41EA00082F76 /* SatelliteMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0570DF4191F41E900082F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F078A9141928817B00B67618 /* CoreLocation.framework */,
+				F0570E32191F4A7900082F76 /* CoreMotion.framework */,
+				F0570E30191F455400082F76 /* MapKit.framework */,
+				F0570DF5191F41E900082F76 /* Foundation.framework */,
+				F0570DF7191F41E900082F76 /* CoreGraphics.framework */,
+				F0570DF9191F41E900082F76 /* UIKit.framework */,
+				F0570E14191F41EA00082F76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0570DFB191F41E900082F76 /* SatelliteMap */ = {
+			isa = PBXGroup;
+			children = (
+				F0570E04191F41E900082F76 /* AppDelegate.h */,
+				F0570E05191F41E900082F76 /* AppDelegate.m */,
+				F0570E07191F41E900082F76 /* Main.storyboard */,
+				F0570E0A191F41E900082F76 /* ViewController.h */,
+				F0570E0B191F41E900082F76 /* ViewController.m */,
+				F0570E0D191F41E900082F76 /* Images.xcassets */,
+				F0570E2A191F420600082F76 /* gradation2.png */,
+				F0570E2B191F420700082F76 /* pin.png */,
+				F0570E2C191F420700082F76 /* sky.png */,
+				F0570DFC191F41E900082F76 /* Supporting Files */,
+			);
+			path = SatelliteMap;
+			sourceTree = "<group>";
+		};
+		F0570DFC191F41E900082F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0570DFD191F41E900082F76 /* SatelliteMap-Info.plist */,
+				F0570DFE191F41E900082F76 /* InfoPlist.strings */,
+				F0570E01191F41E900082F76 /* main.m */,
+				F0570E03191F41E900082F76 /* SatelliteMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0570E1A191F41EA00082F76 /* SatelliteMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0570E20191F41EA00082F76 /* SatelliteMapTests.m */,
+				F0570E1B191F41EA00082F76 /* Supporting Files */,
+			);
+			path = SatelliteMapTests;
+			sourceTree = "<group>";
+		};
+		F0570E1B191F41EA00082F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0570E1C191F41EA00082F76 /* SatelliteMapTests-Info.plist */,
+				F0570E1D191F41EA00082F76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0570DF1191F41E900082F76 /* SatelliteMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0570E24191F41EA00082F76 /* Build configuration list for PBXNativeTarget "SatelliteMap" */;
+			buildPhases = (
+				F0570DEE191F41E900082F76 /* Sources */,
+				F0570DEF191F41E900082F76 /* Frameworks */,
+				F0570DF0191F41E900082F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatelliteMap;
+			productName = SatelliteMap;
+			productReference = F0570DF2191F41E900082F76 /* SatelliteMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0570E12191F41EA00082F76 /* SatelliteMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0570E27191F41EA00082F76 /* Build configuration list for PBXNativeTarget "SatelliteMapTests" */;
+			buildPhases = (
+				F0570E0F191F41EA00082F76 /* Sources */,
+				F0570E10191F41EA00082F76 /* Frameworks */,
+				F0570E11191F41EA00082F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0570E19191F41EA00082F76 /* PBXTargetDependency */,
+			);
+			name = SatelliteMapTests;
+			productName = SatelliteMapTests;
+			productReference = F0570E13191F41EA00082F76 /* SatelliteMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0570DEA191F41E900082F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lephuocdai;
+				TargetAttributes = {
+					F0570E12191F41EA00082F76 = {
+						TestTargetID = F0570DF1191F41E900082F76;
+					};
+				};
+			};
+			buildConfigurationList = F0570DED191F41E900082F76 /* Build configuration list for PBXProject "SatelliteMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0570DE9191F41E900082F76;
+			productRefGroup = F0570DF3191F41E900082F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0570DF1191F41E900082F76 /* SatelliteMap */,
+				F0570E12191F41EA00082F76 /* SatelliteMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0570DF0191F41E900082F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0570E2D191F420700082F76 /* gradation2.png in Resources */,
+				F0570E0E191F41E900082F76 /* Images.xcassets in Resources */,
+				F0570E00191F41E900082F76 /* InfoPlist.strings in Resources */,
+				F0570E2F191F420700082F76 /* sky.png in Resources */,
+				F0570E2E191F420700082F76 /* pin.png in Resources */,
+				F0570E09191F41E900082F76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0570E11191F41EA00082F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0570E1F191F41EA00082F76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0570DEE191F41E900082F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0570E0C191F41E900082F76 /* ViewController.m in Sources */,
+				F0570E06191F41E900082F76 /* AppDelegate.m in Sources */,
+				F0570E02191F41E900082F76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0570E0F191F41EA00082F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0570E21191F41EA00082F76 /* SatelliteMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0570E19191F41EA00082F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0570DF1191F41E900082F76 /* SatelliteMap */;
+			targetProxy = F0570E18191F41EA00082F76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0570DFE191F41E900082F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0570DFF191F41E900082F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0570E07191F41E900082F76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0570E08191F41E900082F76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0570E1D191F41EA00082F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0570E1E191F41EA00082F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0570E22191F41EA00082F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0570E23191F41EA00082F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0570E25191F41EA00082F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
+				INFOPLIST_FILE = "SatelliteMap/SatelliteMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0570E26191F41EA00082F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
+				INFOPLIST_FILE = "SatelliteMap/SatelliteMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0570E28191F41EA00082F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SatelliteMap.app/SatelliteMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SatelliteMapTests/SatelliteMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0570E29191F41EA00082F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SatelliteMap.app/SatelliteMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatelliteMap/SatelliteMap-Prefix.pch";
+				INFOPLIST_FILE = "SatelliteMapTests/SatelliteMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0570DED191F41E900082F76 /* Build configuration list for PBXProject "SatelliteMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0570E22191F41EA00082F76 /* Debug */,
+				F0570E23191F41EA00082F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0570E24191F41EA00082F76 /* Build configuration list for PBXNativeTarget "SatelliteMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0570E25191F41EA00082F76 /* Debug */,
+				F0570E26191F41EA00082F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0570E27191F41EA00082F76 /* Build configuration list for PBXNativeTarget "SatelliteMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0570E28191F41EA00082F76 /* Debug */,
+				F0570E29191F41EA00082F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0570DEA191F41E900082F76 /* Project object */;
+}
